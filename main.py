@@ -9,6 +9,5 @@ def main(page: Page):
     ]
     Routing(page= page, app_routes = routes)
     page.go(page.route)
-    page.update()
 
 app(main, view = WEB_BROWSER)
