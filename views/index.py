@@ -39,5 +39,6 @@ class IndexPage:
         body.controls.append(body_)
         appbar = AppBar(title = Text("Gathery"))
         page.update()
+        page.add(body)
 
         return View("/", controls = [appbar, body])
